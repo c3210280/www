@@ -35,3 +35,21 @@ nav a:hover{
 main{
     padding: 1em;
 }
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 1em;
+}
+.card{
+    border: 1px solid #ddd;
+    padding: 1em;
+    text-align: center;
+    transition: transform 0.3s;
+}
+.card img{
+    max-width: 100%;
+    height: auto;
+}
+.card :hover{
+    transform: scale(1.05);
+}
