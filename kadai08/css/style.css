@@ -53,3 +53,18 @@ main{
 .card :hover{
     transform: scale(1.05);
 }
+
+@media (max-width:768px){
+    nav ul{
+        flex-direction: column;
+    }
+    nav a{
+        text-align: center;
+    }
+    header{
+        font-size: 1.2em;
+    }
+    main{
+        padding: 0.5em;
+    }
+}
